@@ -2,14 +2,14 @@ A weather app that displays the weather of any city the user inputs
 
 Tools:
 
-Backend
+Backend:
   Python
   Flask
   OpenWeatherAPI
   Render
 
   
-Frontend
+Frontend:
   JavaScript
   HTML
   CSS
