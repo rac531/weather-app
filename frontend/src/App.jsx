@@ -10,7 +10,7 @@ function App() {
   const getWeather = async () => {
     try {
       setError("");
-      const response = await axios.get("http://127.0.0.1:5000/weather", {
+      const response = await axios.get("https://weather-app-yxe1.onrender.com/weather", {
         params: { city },
       });
       setWeather(response.data);
